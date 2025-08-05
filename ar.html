@@ -20,9 +20,12 @@
   <body>
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
       <!-- Marker til Sebastian -->
-      <a-marker type="pattern" url="assets/patterns/pattern-patt-fil-test.patt">
+      <!-- <a-marker type="pattern" url="assets/patterns/navneskilt1.patt">
         <a-entity gltf-model="assets/models/avatar.glb" position="0 0 0" rotation="0 180 0" scale="0.5 0.5 0.5"> </a-entity>
         <a-text value="Sebastian" position="0 1 0" align="center" color="#FFFFFF"> </a-text>
+      </a-marker> -->
+      <a-marker preset="hiro">
+        <a-box position="0 0.5 0" material="color: red;"></a-box>
       </a-marker>
 
       <!-- Kamera -->
