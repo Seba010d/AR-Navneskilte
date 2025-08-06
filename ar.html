@@ -10,7 +10,7 @@
   <body style="margin: 0; overflow: hidden">
     <a-scene embedded arjs="source: webcam;trackingMethod: best; debugUIEnabled: false;" vr-mode-ui="enabled: false">
       <!-- Marker til Sebastian -->
-      <a-marker type="pattern" url="assets/patterns/marker.patt">
+      <a-marker type="barcode" value="9">
         <a-entity gltf-model="assets/models/cube.glb" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>
         <a-text value="Sebastian" position="0 1 0" align="center" color="white"></a-text>
       </a-marker>
