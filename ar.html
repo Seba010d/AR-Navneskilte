@@ -8,7 +8,7 @@
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.2.1/aframe/build/aframe-ar.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden">
-    <a-scene embedded arjs="source: webcam;trackingMethod: best; debugUIEnabled: false;" vr-mode-ui="enabled: false">
+    <a-scene embedded arjs="source: webcam;trackingMethod: best; debugUIEnabled: false; detectMode: mono_and_matrix; matrixCodeType: 4X4_BCH_13_5_5" vr-mode-ui="enabled: false">
       <!-- Marker til Sebastian -->
       <a-marker type="barcode" value="9">
         <a-entity gltf-model="assets/models/cube.glb" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>
